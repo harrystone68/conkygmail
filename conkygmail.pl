@@ -8,7 +8,7 @@ $URL = 'https://mail.google.com/mail/feed/atom';
 $user = '<username>';
 $pass = '<password>';
 $ding = "/home/user/.ding"; # a file containing IDs of unread mail
-$dingaudio = "/home/harry/bin/gmail.oga"; # audio file to play on new mail
+$dingaudio = "/home/user/bin/gmail.oga"; # audio file to play on new mail
 $play = "/usr/bin/play -q"; # your command to play that audio file
 #========================================
 use LWP::UserAgent;
